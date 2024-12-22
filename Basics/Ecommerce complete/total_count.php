@@ -1,0 +1,3 @@
+<?php
+$totalQuantity = 0;
+?>

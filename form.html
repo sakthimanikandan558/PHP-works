@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Submit Form Data to PostgreSQL</title>
+</head>
+<body>
+
+<h2>Submit Your Information</h2>
+<form action="process_form.php" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="balance">Balance:</label><br>
+    <input type="number" id="balance" name="balance" step="0.01" required><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
